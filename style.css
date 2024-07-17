@@ -1,4 +1,4 @@
-/* Global reset */
+/* Global Reset */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -22,8 +22,8 @@ p {
 
 h1 { font-size: 25px; }
 h2 { font-size: 22px; }
-h3 { font-size: 18px; } 
-h4 { font-size: 18px; margin-bottom: 10px;}
+h3 { font-size: 18px; }
+h4 { font-size: 18px; margin-bottom: 10px; }
 
 /* Layout */
 article, aside, footer, header, nav, section { display: block; }
@@ -89,7 +89,6 @@ nav ul li {
     display: inline-block;
     margin: 10px;
 }
-
 
 /* Main Content Section */
 body > section {
@@ -163,7 +162,29 @@ article h2 {
 #logoSizes {
     width: 175px;
     margin-right: 50px;
+}
 
+#logosContainer {
+    float: left;
+}
+
+#logoSizes {
+    width: 70px;
+    margin-left: 70px;
+}
+
+#logoSizes2 {
+    width: 110px;
+    margin-right: 20px;
+}
+
+/* Custom styles for evaluation dates */
+.evaluation-dates {
+    padding-left: 40px; /* Indentation */
+}
+
+.evaluation-dates li {
+    margin-bottom: 16px; /* Space between list items */
 }
 
 /* Footer */
@@ -185,27 +206,13 @@ aside > div {
     min-height: 100px;
 }
 
-#logosContainer {
-    float: left;
-}
-
-#logoSizes {
-    width: 70px;
-    margin-left: 70px;
-}
-
-#logoSizes2 {
-    width: 110px;
-    margin-right: 20px;
-}
-
 #footerDocs {
     background: transparent;
     width: 95%;
     margin: auto;
     clear: both;
     text-align: right;
-    margin-top: 600px;
+    margin-top: 560px;
 }
 
 /* Responsive Design */
